@@ -1,0 +1,9 @@
+# Hàm tính tổng của một dãy số
+def tinh_tong(danh_sach):
+    tong = sum(danh_sach)
+    return tong
+
+# Ví dụ sử dụng
+danh_sach_so = [1, 2, 3, 4, 5]
+tong = tinh_tong(danh_sach_so)
+print("Tổng của dãy số là:", tong)
